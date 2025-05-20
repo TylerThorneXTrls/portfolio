@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        padding:0px;
+        margin:0px;
+        height:auto
+        }
+        body{
+            background-color: #000000;
+            width: 98vw;
+            margin:auto ;
+            height:auto
+            
+        }
+        
+    
+        
+        li{
+            color:white;
+            
+            
+            
+        }
+        
+        ul,li,a{
+            list-style: none;}
+        
+        .main{
+            display: grid;
+            width:100%;
+            grid-template-rows: 50px repeat(2,1fr) 100px;
+            grid-template-columns: repeat(2,50%);
+            height: auto;
+
+        }
+        .projects{
+            display: grid;
+            gap:10px;
+            grid-row: span 2 ;
+            grid-template-rows: repeat(2,1fr);
+            grid-template-columns: 1fr ;
+            background-color: #000000;
+        
+            
+            
+
+
+            
+            
+        }
+        .box{
+            background-color:black ;
+            width:95%;
+            height: 75%;
+            border: 5px solid white;
+            margin-top: auto;
+            color:white;
+            
+        }
+        .topbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .info{
+            color: rgb(255, 255, 255);
+            grid-column: span 1;
+            display: flex;
+            flex-direction: column;
+            grid-row: span 5;
+          
+            
+        }
+        .info > h1{
+            font-size: 1em;
+        }
+        .info > h2{
+            font-size: 1em;
+        }
+        footer{
+            display: flex;
+            color:rgb(0, 0, 0);
+            font-size: 32px; 
+            background-color: black;
+            justify-content: center;
+            grid-column: span 2;
+            color:white
+
+        }
+
+           
+        img{
+            aspect-ratio: 1/1;
+            width:100%;
+        }
+           
+           
+
+        .box{height: 300px;}
+        
+         
+
+            .box > { color:white}
+
+        
+           
+        
+        
+
+       
+                
+                
+            
+                
+            
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        
+    <nav class="navbar">
+        <h2>Tyler Thorne</h2>
+        <ul class="topbar">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="../projects/projects.html">Projects</a></li>
+            <li><a href="/portfolioresume/portfolio.html">Resume</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+        </ul>
+   
+    
+    </nav>
+    <div class="info">
+        <h2>Programmer/student</h2>
+        <img src="logo.png" >
+        
+        
+    </div>
+    
+    <div class="projects">
+        <div class="box">
+            
+            <h3>acomplishment </h3>
+            <div>
+                dont have any
+                
+            </div>
+
+        </div>
+        <div class="box">
+            
+            <h3>skills</h3>
+            <div>
+                Web Development
+Proficient in HTML, CSS, JavaScript, and modern frameworks.
+                
+            </div>
+            
+        </div>
+       
+                
+            </div>
+            <footer>
+            <a href="https://github.com/TylerThorneXTrls"><img src="gitHub.png" alt="github"></a>
+            ©2024 Tyler Thorne all right reserved
+        </footer>
+          
+            
+        </div>
+     
+        
+        
+        
+       
+</div>
+
+    
+</body>
+</html>
